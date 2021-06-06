@@ -67,3 +67,199 @@ JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1623014966843	geckodriver	INFO	Listening on 127.0.0.1:47373
+1623014966846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBCmS6m"
+1623014967173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623014968383	Marionette	INFO	Listening on port 37509
+1623014968520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.
+1623015069747	Marionette	INFO	Stopped listening on port 37509
+1623015142090	geckodriver	INFO	Listening on 127.0.0.1:38223
+1623015142093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7OVK5Y"
+1623015142414	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623015143568	Marionette	INFO	Listening on port 46347
+1623015143609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1002))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:1002:5)", "resource://devtools/shared/protocol/Front.js", 358))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: (new Invariant Violation("Minified React error #188; visit https://reactjs.org/docs/error-decoder.html?invariant=188 for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ", "resource://devtools/client/shared/vendor/react-dom.js", 34))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1623015513092	Marionette	INFO	Stopped listening on port 46347
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623015516350	geckodriver	INFO	Listening on 127.0.0.1:45239
+1623015516353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3b1EYG"
+1623015516699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623015517899	Marionette	INFO	Listening on port 33247
+1623015518028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.
+1623015772267	geckodriver	INFO	Listening on 127.0.0.1:40295
+1623015772270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekEREsA"
+1623015772606	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623015773760	Marionette	INFO	Listening on port 40861
+1623015773795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.
+1623015798539	Marionette	INFO	Stopped listening on port 33247
+1623016120372	geckodriver	INFO	Listening on 127.0.0.1:37887
+1623016120375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilee9X69y"
+1623016120806	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623016121978	Marionette	INFO	Listening on port 40833
+1623016122142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.
+1623016129654	Marionette	INFO	Stopped listening on port 40861
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623016188017	Marionette	INFO	Stopped listening on port 40833
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623016190699	geckodriver	INFO	Listening on 127.0.0.1:49435
+1623016190702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehVmiDo"
+1623016191021	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623016192146	Marionette	INFO	Listening on port 40121
+1623016192217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 296: TypeError: $(...).uls is not a function
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.sw.en_US.TH-1-q9E9bE.O/am=aQ/d=1/rs=AIp04d_xJwFFtybWiDU2If87rQbdqWc6yQ/m=sw, line 2518: TypeError: _._DumpException is not a function
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://messages.google.com/web/serviceworker-bundle.js for scope https://messages.google.com/web/ threw an exception during script evaluation.

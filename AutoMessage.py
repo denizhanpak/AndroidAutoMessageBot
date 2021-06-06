@@ -7,9 +7,12 @@ driver.get("https://messages.google.com/web/")
 input("Press anything after QR scan")
 time.sleep(5)
 
-names = [''] #Enter the contact names
+names = []
+with open("./numbers.list") as f:
+    for line in f:
+        names.append(line.strip())
 
-Message = "" #Enter the Message 
+Message = "Testing" #Enter the Message 
 
 for name in names:
 
@@ -18,7 +21,7 @@ for name in names:
     driver.find_element_by_xpath("//input[@placeholder='Type a name, phone number, or email']").clear() #Locate and clear Searchbox
     driver.find_element_by_xpath("//input[@placeholder='Type a name, phone number, or email']").send_keys(name) #Type contact name
     time.sleep(7)
-    driver.find_element_by_xpath("//mw-contact-row/div/div/div[2]").click() #Click on first contact
+    driver.find_element_by_xpath("//mw-contact-selector-button/button").click() #Click on first contact
     time.sleep(7)
     driver.find_element_by_xpath("//textarea[@placeholder='Text message']").clear() #Locate and clear message box
     driver.find_element_by_xpath("//textarea[@placeholder='Text message']").send_keys(Message) #Type the message in message box

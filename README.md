@@ -1,6 +1,7 @@
 # Android Auto Message Bot :robot:
 
 Automated Android text messaging bot that uses android web messaging feature to send automated reply messages to multiple contacts for a particular interval.
+This version is adapted from adithyan-ak/AndroidAutoMessageBot. Added number instead of contact name functionality.
 
 ## Installation
 
@@ -28,14 +29,15 @@ C:\python37\python3.exe -m pip install selenium
 - Install using pip on Linux:
 ```
 sudo pip3 install selenium
+sudo pip3 install webdrivermanager
 ```
 ## Setup:
 
 Edit the **Automessage.py** file according to your needs. 
 
-Add the contact names to whom you wish to send the message in ```names```(Tuple) variable of **Line 10**.
+Add the contact names or numbers you wish to message into a text file named numbers.list Each number should be on a separate line..
 
-Add the Message which you wish to send to the selected contacts in ```Message``` variable of **Line 12**.
+Add the Message which you wish to send to the selected contacts in ```Message``` variable of **Line 15**.
 
 Edit the **AutoChat.py** file according to your needs.
 
