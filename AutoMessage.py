@@ -4,11 +4,14 @@ import time
 import pandas as pd
 import re
 
-df = pd.read_excel("./cs.xlsx")
+df = pd.read_excel("./eng.xlsx")
 
 # Extract first 10-digit number (ignoring non-digit characters)
 df['phone_clean'] = df['Phone'].str.extract(r'(\d{3}\D*\d{3}\D*\d{4})')[0].str.replace(r'\D', '', regex=True)
-df['phone_clean'] = df['phone_clean'].str[:10]  # Take first 10 digits
+if df["phone_clean"].str[0] == "1":
+    df['phone_clean'] = df['phone_clean'].str[1:11]  # Take first 10 digits
+else:
+    df['phone_clean'] = df['phone_clean'].str[:10]  # Take first 10 digits
 
 # Assuming your DataFrame has a 'name' column
 names = df.dropna(subset=['phone_clean'])['First Name']
