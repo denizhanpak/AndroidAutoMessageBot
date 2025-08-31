@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import re
 
-df = pd.read_excel("./info.xlsx")
+df = pd.read_excel("./cs.xlsx")
 
 # Extract first 10-digit number (ignoring non-digit characters)
 df['phone_clean'] = df['Phone'].str.extract(r'(\d{3}\D*\d{3}\D*\d{4})')[0].str.replace(r'\D', '', regex=True)
@@ -42,7 +42,6 @@ for name,number in zip(names, phones):
     if type(number) is tuple:
         print(number)
     message = f"Hey {name}! It’s Denizhan from the IGWC. We’re holding a Labor Day Rally to launch our new card drive this Monday, 12pm at Sample Gates. Please fill out this RSVP (it’s okay if you can’t make it, we can still send you the new card): http://igwc.work/labor-day" #Enter the Message 
-    print(message)
 
     driver.find_element("link text","Start chat").click() #Click on Search contacts button
     time.sleep(3)
@@ -52,10 +51,16 @@ for name,number in zip(names, phones):
     driver.find_element("xpath","//mw-contact-selector-button/button").click() #Click on first contact
     time.sleep(7)
     try:
-        driver.find_element("xpath","//textarea[@placeholder='RCS message']").clear() #Locate and clear message box
-        driver.find_element("xpath","//textarea[@placeholder='RCS message']").send_keys(message) #Type the message in message box
-        driver.find_element("xpath","//textarea[@placeholder='RCS message']").send_keys(Keys.RETURN) #Press Enter
+        box = driver.find_element("xpath","//textarea[@placeholder='RCS message']") #Locate message box
+        if box:
+            box.clear() #Locate and clear message box
+            box.send_keys(message) #Type the message in message box
+            box.send_keys(Keys.RETURN) #Press Enter
+        else:
+            box = driver.find_element("xpath","//textarea[@placeholder='Text message']") #Locate message box
+            box.clear() #Locate and clear message box
+            box.send_keys(message) #Type the message in message box
+            box.send_keys(Keys.RETURN) #Press Enter
     except: 
-        driver.find_element("xpath","//textarea[@placeholder='Text message']").clear() #Locate and clear message box
-        driver.find_element("xpath","//textarea[@placeholder='Text message']").send_keys(message) #Type the message in message box
-        driver.find_element("xpath","//textarea[@placeholder='Text message']").send_keys(Keys.RETURN) #Press Enter
+        print(name, number)
+        continue
