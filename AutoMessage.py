@@ -4,14 +4,11 @@ import time
 import pandas as pd
 import re
 
-df = pd.read_excel("./eng.xlsx")
-
+df = pd.read_excel("./ils.xlsx")
+print(df)
 # Extract first 10-digit number (ignoring non-digit characters)
-df['phone_clean'] = df['Phone'].str.extract(r'(\d{3}\D*\d{3}\D*\d{4})')[0].str.replace(r'\D', '', regex=True)
-if df["phone_clean"].str[0] == "1":
-    df['phone_clean'] = df['phone_clean'].str[1:11]  # Take first 10 digits
-else:
-    df['phone_clean'] = df['phone_clean'].str[:10]  # Take first 10 digits
+df['phone_clean'] = df['Phone'].astype(str).str.extract(r'(\d{3}\D*\d{3}\D*\d{4})')[0].str.replace(r'\D', '', regex=True)
+
 
 # Assuming your DataFrame has a 'name' column
 names = df.dropna(subset=['phone_clean'])['First Name']
@@ -40,10 +37,13 @@ time.sleep(5)
 #         else:
 #             numbers.append(l[1].strip())
 
+print("Error could not be reached.")
 
 for name,number in zip(names, phones):
-    if type(number) is tuple:
-        print(number)
+    if number[0] == "1":
+        number = number[1:11]  # Take first 10 digits
+    else:
+        number = number[:10]  # Take first 10 digits
     message = f"Hey {name}! It’s Denizhan from the IGWC. We’re holding a Labor Day Rally to launch our new card drive this Monday, 12pm at Sample Gates. Please fill out this RSVP (it’s okay if you can’t make it, we can still send you the new card): http://igwc.work/labor-day" #Enter the Message 
 
     driver.find_element("link text","Start chat").click() #Click on Search contacts button
